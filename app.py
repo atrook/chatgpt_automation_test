@@ -31,7 +31,7 @@ if data is not None:
     st.subheader('対象の列選択')
     target_cols = st.multiselect("対象の列を選択してください(複数選択可)", cols) # セレクトボックス
 
-st.subheader('４要素要約')
+st.subheader('①４要素要約')
 
 prompt_text = st.text_area(
     "４要素に要約させるためのプロンプトを入力してください",
@@ -127,7 +127,7 @@ if st.button("４要素に要約",key='sumup'):
         st.session_state['df'] = df
 
 
-st.subheader('エモーション深掘り')
+st.subheader('②エモーション深掘り')
 
 # emotion深掘り
 def free_text2sumups_b(free_text, emotion_pre):
