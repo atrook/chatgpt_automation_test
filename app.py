@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon = "decom_logo.png",
     layout="wide")
 
-st.image("/app/chatgpt_automation_test/decom_logo.png", width=120)
+st.image("decom_logo.png", width=120)
 # with st.sidebar:
 #     st.image("decom_logo.png", width=120)
 st.title("DecomAI")
