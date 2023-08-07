@@ -8,12 +8,12 @@ import re
 
 st.set_page_config(
     page_title="DecomAI", 
-    page_icon = "/app/chatgpt_automation_test/decom_logo.png",
+    page_icon = "decom_logo.png",
     layout="wide")
 
 st.image("/app/chatgpt_automation_test/decom_logo.png", width=120)
 # with st.sidebar:
-#     st.image("/Users/kotaro/Documents/chatgpt-automation/decom_logo.png", width=120)
+#     st.image("decom_logo.png", width=120)
 st.title("DecomAI")
 
 
