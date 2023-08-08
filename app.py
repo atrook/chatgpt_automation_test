@@ -8,7 +8,7 @@ import re
 
 st.set_page_config(
     page_title="DecomAI", 
-    page_icon = "decom_logo.png",
+    page_icon = "logo-transparent.png",
     layout="wide")
 
 st.image("decom_logo.png", width=120)
